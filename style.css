@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+.song-container {
     display: flex;
     flex-direction: row;
     padding: 12px 0px;
@@ -11,27 +11,27 @@ body {
     border-bottom: 1px solid #EEE;
 }
 
-.container .number {
+.sone-container .number {
     font-size: 20px;
     padding: 4px
 }
 
-.container .info {
+.song-container .info {
     font-size: 14px;
     flex-grow: 1;
     text-transform: capitalize;
 }
 
-.container .info .song {
+.song-container .info .song {
     margin-bottom: 8px
 }
 
-.container .info .singer {
+.song-container .info .singer {
     font-size: 13px;
     color: #999
 }
 
-.container .viewer {
+.song-container .viewer {
     font-size: 13px;
     color: #999;
     padding: 8px
