@@ -3,36 +3,79 @@ body {
 }
 
 .song-container {
-    display: flex;
-    flex-direction: row;
     padding: 12px 0px;
     width: 300px;
-    border-top: 1px solid #EEE;
-    border-bottom: 1px solid #EEE;
 }
 
-.sone-container .number {
-    font-size: 20px;
-    padding: 4px
+.album-container {
+    height: 150px;
+    width: 300px;
 }
 
-.song-container .info {
-    font-size: 14px;
-    flex-grow: 1;
-    text-transform: capitalize;
+.album-container .album-cover {
+    height: 128px;
+    width: 128px;
+    background: #DDD url('https://via.placeholder.com/128');
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
 }
 
-.song-container .info .song {
+.album-container .album-cover .overlay {
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.022846638655462215) 100%);
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.dis-flex {
+    display: flex
+}
+
+.flex-row {
+    flex-direction: row
+}
+
+.flex-grow-1 {
+    flex-grow: 1
+}
+
+.mgb-8px {
     margin-bottom: 8px
 }
 
-.song-container .info .singer {
-    font-size: 13px;
+.c-999 {
     color: #999
 }
 
-.song-container .viewer {
-    font-size: 13px;
-    color: #999;
+.fs-13px {
+    font-size: 13px
+}
+
+.fs-14px {
+    font-size: 14px
+}
+
+.fs-20px {
+    font-size: 20px
+}
+
+.pd-8px {
     padding: 8px
+}
+
+.pd-4px {
+    padding: 4px
+}
+
+.tt-c {
+    text-transform: capitalize
+}
+
+.bd-t-1px-s-EEE {
+    border-top: 1px solid #EEE
+}
+
+.bd-b-1px-s-EEE {
+    border-bottom: 1px solid #EEE
 }
