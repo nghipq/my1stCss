@@ -28,6 +28,32 @@ body {
     box-sizing: border-box;
 }
 
+.album-square {
+    height: 128px;
+    width: 128px;
+    background: #DDD url('https://via.placeholder.com/128');
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+}
+
+.album-square .overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+   -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+}
+
+.album-square:hover .overlay {
+  opacity: 1;
+  font-size: 45px
+}
+
+
 .dis-flex {
     display: flex
 }
